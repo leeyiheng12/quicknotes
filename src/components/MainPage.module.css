@@ -1,0 +1,16 @@
+.page {
+    height: 100vh;
+}
+
+.sidebar {
+    float: left;
+    width: 230px;
+}
+
+.main {
+    margin-left: 230px;  /* sidebar width */
+    width: calc(100vw - 230px);
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+

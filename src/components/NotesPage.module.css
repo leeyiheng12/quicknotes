@@ -1,0 +1,13 @@
+.addNote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed black;
+    opacity: 0.5;
+}
+
+.addNote:hover {
+    opacity: 0.8;
+}

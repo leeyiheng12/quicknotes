@@ -1,0 +1,65 @@
+.container {
+    height: 100vh;
+    background-color: rgb(249, 250, 251);
+}
+
+.logoText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoDiv {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pageHeaderText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pageNames {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.entry:hover {
+    cursor: grab;
+    background-color: rgb(224, 226, 226);
+}
+
+.selectedEntry {
+    background-color: rgb(238, 246, 249);
+}
+
+.addPageIcon:hover {
+    cursor: pointer;
+}
+
+.iconDiv {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarDiv {
+    display: flex;
+    flex-direction: column;
+}
